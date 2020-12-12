@@ -1,0 +1,41 @@
+.first-footer {
+    background-color: hsl(12, 88%, 59%);
+    padding: 50px 0;
+    margin-top: 100px;
+}
+
+.first-footer-items {
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+    align-items: center;
+}
+
+.foot-txt {
+    width: 50%;
+}
+.footer-text {
+    color: #ffffff;
+    font-weight: 800;
+    font-size: 3rem;
+}
+
+
+@media screen and (max-width: 700px) {
+    .first-footer-items  {
+        display: block;
+        text-align: center;
+        width: 90%;
+        margin: 0 auto;
+    }
+    .foot-txt {
+        width: 80%;
+        font-size: 2rem;
+        margin: auto;
+        margin-bottom: 30px;
+    }
+    .footer-text {
+        font-size: 2rem;
+    }
+}
+

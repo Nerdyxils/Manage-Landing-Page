@@ -1,0 +1,138 @@
+.grid-text-main {
+    background-image: url(/src/bg-tablet-pattern.svg);
+    background-position: -90% -150%;
+    background-repeat: no-repeat;
+    object-fit: cover;
+
+
+
+    padding: 50px 0;
+    margin: 0 auto;
+}
+
+.main-row {
+    align-items: center;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: stretch;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.col {
+    margin-bottom: 15px;
+    padding-right: 15px;
+    padding-left: 15px;
+    flex: 1;
+    max-width: 50%;
+    flex-basis: 50%;
+    align-items: center;
+}
+
+.main-grid-head {
+    font-weight: 800;
+    font-size: 3rem;
+    line-height: 1.5;
+    color: hsl(228, 39%, 23%);
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+.col-head h3 {
+    font-weight: 800;
+    font-size: 1.5rem;
+    line-height: 1.5;
+    color: hsl(228, 39%, 23%);
+    margin: 0 auto;
+    width: 100%;
+}
+
+.main-row p {
+    color: #666666;
+    line-height: 2;
+    width: 80%;
+    margin: 20px auto;
+    font-size: .9rem;
+}
+
+.num {
+    color: #ffffff;
+    background-color: hsl(12, 88%, 59%);
+    border-radius: 100px;
+    padding: 5px 15px;
+    margin-right: 10px;
+}
+
+.main__text-grid {
+    align-self: flex-start;
+    width: 100%;
+}
+
+.main__text-grid p {
+    width: 90%;
+}
+
+.text-row-two, .text-row-three {
+    margin-top: 30px;
+}
+
+.col-head {
+    display: flex;
+}
+
+@media screen and (max-width: 991px) {
+    .container {
+        padding-right: 30px;
+        padding-left: 30px;
+    }
+
+    .main-grid-head {
+        font-size: 2.5rem;
+    }
+
+    .col-head h3 {
+        font-size: 1.2rem;
+        width: 100%;
+    }
+
+    .col-head {
+        background-color: hsl(13, 100%, 96%);
+        border-radius: 100px;
+        padding: 0;
+        position: relative;
+        overflow-x: hidden;
+        width: 100%;
+    }
+
+    .main__text-grid {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    .grid-text-main {
+        background-image: none;
+    }
+    .hero__text {
+        padding-bottom: 65px;
+    }
+
+    .col {
+        max-width: 100%;
+        flex-basis: 100%;
+    }
+
+    .col-head h3 {
+        font-size: 1rem;
+    }
+
+    .main-row p {
+        width: 100%;
+    }
+
+
+}
