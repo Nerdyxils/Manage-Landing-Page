@@ -10,11 +10,6 @@ export const homeObjOne = {
     alt : 'Credit Card'
 };
 
-// export const bg_img = {
-//     BgImg: 'images/bg-tablet-pattern.svg',
-//     alt : 'background'
-// };
-
 export const gridText = {
     headlineOne : 'What’s different about Manage?',
     descriptionOne : 'Manage provides all the functionality your team needs, without the complexity. Our software is tailor-made for modern digital product teams.',
