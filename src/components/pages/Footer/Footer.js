@@ -11,7 +11,7 @@ function Footer() {
                 <div className="footer row">
                     <div className="footer__logo">
                         <div className="foot-logo">
-                            <img src='/images/logo.svg' alt="logo" />
+                            <img src='images/logo.svg' alt="logo" />
                         </div>
                     </div>
                     <div className="footer_links_justify">

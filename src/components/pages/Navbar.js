@@ -31,7 +31,7 @@ function Navbar() {
         <div className="navbar">
             <div className="navbar-container container">
                 <Link to='/' className="navbar-logo" onClick={closeMobileMenu}>
-                    <img src='/images/logo.svg' alt="logo" />
+                    <img src='images/logo.svg' alt="logo" />
                 </Link>
                 <div className="menu-icon" onClick={handleClick}>
                     { click ? <FaTimes /> : <FaBars/> }
